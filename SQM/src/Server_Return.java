@@ -14,7 +14,7 @@ public class Server_Return implements Runnable
 		this.SOCK = X;
 	}
 	
-	public void CheckConnection() throws IOException
+	public void CheckConnection() throws IOException 
 	{
 		if(!SOCK.isConnected())
 		{
