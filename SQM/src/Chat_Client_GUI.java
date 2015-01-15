@@ -26,7 +26,7 @@ public class Chat_Client_GUI {
 	public static JList JL_ONLINE = new JList();
 	private static JScrollPane SP_ONLINE = new JScrollPane();
 	private static JLabel L_LoggedInAs = new JLabel("");
-	private static JLabel L_LoggedInAsBox = new JLabel("");
+	private static JLabel L_LoggedInAsBox = new JLabel(""); 
 	
 	public static JFrame LogInWindow = new JFrame();
 	public static JTextField TF_UserNameBox = new JTextField(20);

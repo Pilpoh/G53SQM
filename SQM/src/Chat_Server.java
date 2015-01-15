@@ -36,6 +36,7 @@ public class Chat_Server
 		}
 		catch(Exception X) {System.out.print(X);}
 	}
+	
 	public static void AddUserName(Socket X) throws IOException
 	{
 		Scanner INPUT = new Scanner(X.getInputStream());

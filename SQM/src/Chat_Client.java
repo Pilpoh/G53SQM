@@ -39,7 +39,7 @@ public class Chat_Client implements Runnable
 		OUT.flush();
 		SOCK.close();
 		JOptionPane.showMessageDialog(null, "You disconnected!");
-		System.exit(0);
+		System.exit(0); 
 	}
 	public void CheckStream()
 	{
